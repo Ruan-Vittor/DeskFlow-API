@@ -1,0 +1,131 @@
+# ============================================================
+# Build e artefatos Maven
+# ============================================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+*.class
+dependency-reduced-pom.xml
+.flattened-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# ============================================================
+# Logs e arquivos de runtime
+# ============================================================
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+*.pid
+*.hprof
+*.exec
+jacoco.exec
+
+# ============================================================
+# Variáveis de ambiente e segredos
+# ============================================================
+.env
+.env.*
+*.env
+!.env.example
+
+# Certificados e chaves privadas locais
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Configurações locais que podem conter credenciais
+application-local.yml
+application-local.yaml
+application-local.properties
+application-secret.yml
+application-secret.yaml
+application-secret.properties
+.spring-boot-devtools.properties
+
+# ============================================================
+# Banco de dados local
+# ============================================================
+.postgres/
+pgdata/
+*.sqlite
+*.sqlite3
+*.db
+*.mv.db
+*.trace.db
+
+# ============================================================
+# IntelliJ IDEA
+# ============================================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ============================================================
+# Eclipse / Spring Tool Suite
+# ============================================================
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+# ============================================================
+# NetBeans
+# ============================================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ============================================================
+# VS Code
+# ============================================================
+.vscode/
+
+# ============================================================
+# Sistemas operacionais e editores
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*~
+*.swp
+*.swo
+.directory
+.Trash-*
+
+# ============================================================
+# Arquivos temporários e caches locais
+# ============================================================
+*.tmp
+*.temp
+*.bak
+.cache/
